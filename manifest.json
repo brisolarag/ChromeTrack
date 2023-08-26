@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Track",
+    "version": "1.0.0",
+  
+    "description": "Track your products without losing productivity.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "index.html"
+    },
+  
+    "author": "brisolarag@gmail.com"
+
+}
