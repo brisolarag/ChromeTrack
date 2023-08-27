@@ -1,0 +1,56 @@
+* {
+    margin: 0
+}
+.container {
+    width: 180px;
+    height: 50px;
+    padding: 5px;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272829;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    height: 60%;
+}
+
+.track {
+    font-size: 10px;
+    background-color: #D8D9DA;
+    border-radius: 5px 0 0 5px;
+    color: #61677A;
+    padding-left: 5px;
+    border: none;
+}
+.track:focus {
+    outline: none;
+}
+
+.track-btn {
+    background-color: #61677A;
+    border-radius: 0 5px 5px 0;
+    border: none;
+
+}
+
+.track-btn img {
+    width: 100%;
+    height: 80%;
+}
+
+.track-btn ,.track-btn img {
+    cursor: pointer;
+}
+
+.track-btn:active {
+    background-color: #3e424f;
+}
+.track-btn img:active {
+    background-color: #3e424f;
+}
