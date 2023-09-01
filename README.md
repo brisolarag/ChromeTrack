@@ -2,5 +2,14 @@
 
 <strong>EM BREVE PARA DOWNLOAD PELA LOJA DE EXTENSÕES DO CHROME</strong> <br>
 
-Adicione a extensão no chrome, depois pesquisa a situação de rastreio da sua encomenda pelo código de rastreio enviado. <br>
-<img src="assets/img-rastreio.jpeg" alt="lupa-img">
+1. Caso adicione a extensão e ela não apareca, entre nas extensões: <br>
+<img src="assets/passo1.jpeg" alt="lupa-img"><br>
+<br>
+2. Procure pela extensão Chrome Track e clique no alfinete: <br>
+<img src="assets/passo2.jpeg" alt="lupa-img"><br>
+<br>
+3. Depois disso a extensão vai estar no fácil acesso, basta clicar no ícone, digitar seu código e clicar na lupa para pesquisar: <br>
+<img src="assets/passo3.jpeg" alt="lupa-img"><br>
+<br>
+4. Em seguida os dados do seu rastreio vão aparecer abaixo.
+<img src="assets/passo4.jpeg" alt="lupa-img"><br>
