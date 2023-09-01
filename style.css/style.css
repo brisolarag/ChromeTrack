@@ -1,45 +1,53 @@
 * {
     margin: 0;
-    background-color: #94A684;
 }
+
 .container {
-    width: 260px;
-    height: 50px;
-    padding: 5px;
+    width: 500px;
+    height: 30px;
     margin: 0;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    row-gap: 3px;
-    background-color: #94A684;
+    row-gap: 5px;
 }
 
 .inputs {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 93% 7%;
 
 }
 
 .track {
     font-size: 10px;
-    background-color: #D8D9DA;
-    border-radius: 5px 0 0 5px;
+    background-color: #ffffff;
     color: #61677A;
-    padding-left: 5px;
+    padding: 0;
     border: none;
+    height: 30px;
+    padding-left: 3px;
+    /* padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0; */
 }
+
 .track:focus {
     outline: none;
 }
 
 .track-btn {
-    border-radius: 0 5px 5px 0;
+    padding: 0;
     border: none;
+    background-color: #ffffff;
+    height: 30px;
+    padding: 3px;
+    overflow: hidden;
 
 }
 
 .track-btn img {
     width: 100%;
-    height: 80%;
+    height: 100%;
+    background-color: #ffffff;
 }
 
 .track-btn ,.track-btn img {
@@ -47,11 +55,11 @@
 }
 
 .track-btn:active {
-    background-color: #E4E4D0;
+    background-color: #bbb8b8;
 
 }
 .track-btn img:active {
-    background-color: #E4E4D0;
+    background-color: #bbb8b8;
 }
 
 .resultado {
@@ -60,19 +68,13 @@
 
 .resultado table {
     width: 100%;
-    background-color: #94A684;
 }
 
 .resultado table tbody tr td {
-    background-color: #94A684;
     font-size: 0.65rem;
 }
 
 .r {
     display: none;
 }
-
-/* .r {
-    display: table-row;
-} */
 

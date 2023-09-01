@@ -6,6 +6,7 @@
 
 let trackBtn = document.querySelector('.track-btn');
 let codigoRastreio = document.querySelector('.track');
+let container = document.querySelector('.container');
 
 
 trackBtn.addEventListener('click', function() {
@@ -16,6 +17,8 @@ trackBtn.addEventListener('click', function() {
         .then(data => {
             let len = data.eventos.length
             for (let i = 0 ; i < len ; i++) {
+                console.log(data.eventos)
+                document.querySelector('.resultado-trackH' + i).textContent = data.eventos[i].data + ' | ' + data.eventos[i].hora
                 document.querySelector('.resultado-trackD' + i).textContent = data.eventos[i].local
                 document.querySelector('.resultado-trackS' + i).textContent = data.eventos[i].status
                 document.querySelector('.r' + i).style.display = 'table-row'
@@ -23,6 +26,7 @@ trackBtn.addEventListener('click', function() {
 
         })
         .catch(error => {
+            codigoRastreio.value = "Erro ao fazer solicitação"
             console.error('Erro ao fazer a solicitação:', error);
         });
 });
