@@ -2,6 +2,12 @@
     "manifest_version": 3,
     "name": "Chrome Track",
     "version": "1.0.0",
+    "icons": {
+        "16": "assets/16truck.png",
+        "32": "assets/32truck.png",
+        "48": "assets/48truck.png",
+        "128": "assets/128truck.png"
+      },
   
     "description": "Track your products without losing productivity.",
     "permissions": ["activeTab", "scripting"],
