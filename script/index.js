@@ -2,7 +2,7 @@
 // https://api.linketrack.com/track/json?user=dev.brisolara@gmail.com&token=813bebd95feb435f8ece25566bf763cfc82a15e5d53b581c299140ff21549d71&codigo=LB576309921HK
 
 // Rastreio Teste
-// LB576309921HK
+// LB576309921HK 
 
 let trackBtn = document.querySelector('.track-btn');
 let codigoRastreio = document.querySelector('.track');
