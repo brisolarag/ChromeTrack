@@ -1,5 +1,4 @@
 // API
-// https://api.linketrack.com/track/json?user=dev.brisolara@gmail.com&token=813bebd95feb435f8ece25566bf763cfc82a15e5d53b581c299140ff21549d71&codigo=LB576309921HK
 
 // Rastreio Teste
 // LB576309921HK 
@@ -14,7 +13,7 @@ function realizaRastreio() {
     if (codigoRastreio.value.trim() === '') {
         return
     }
-    var url = 'https://api.linketrack.com/track/json?user=dev.brisolara@gmail.com&token=813bebd95feb435f8ece25566bf763cfc82a15e5d53b581c299140ff21549d71&codigo=' + codigoRastreio.value
+    var url = 'https://api.linketrack.com/track/json?user=dev.brisolara@gmail.com&token=###TOKENLINKETRACK###&codigo=' + codigoRastreio.value
     
     fetch(url)
     .then(response => response.json())
